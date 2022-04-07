@@ -1,0 +1,15 @@
+{
+    "routes": [
+        {
+            "route": "/example",
+            "rewrite": "/example.html"
+        }
+    ],
+    "navigationFallback": {
+        "rewrite": "/index.html"
+    },
+    "globalHeaders": {
+        "Access-Control-Allow-Origin": "https://man-diabetes-mma-managed-001.westeurope.inference.ml.azure.com",
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS"
+    }
+}
