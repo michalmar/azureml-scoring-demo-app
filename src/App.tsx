@@ -67,8 +67,9 @@ export const App: React.FunctionComponent = () => {
       
     };
 
-    fetch("/score", requestOptions)
-      .then(response => response.text())
+    // fetch("/score", requestOptions)
+    fetch("https://man-diabetes-mma-managed-001.westeurope.inference.ml.azure.com/score", requestOptions) 
+     .then(response => response.text())
       .then(result => {
         console.log(result);
         setPredicted(true)
