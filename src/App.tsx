@@ -25,9 +25,9 @@ export const App: React.FunctionComponent = () => {
     var myHeaders = new Headers();
     myHeaders.append("Authorization", "Bearer PrmnZkhGzP80x1TEpXreLoEelwHhrX8o");
     myHeaders.append("Content-Type", "application/json");
-    // myHeaders.append("Access-Control-Allow-Origin", "*")
-    // myHeaders.append("Access-Control-Allow-Methods", "DELETE, POST, GET, OPTIONS")
-    // myHeaders.append("Access-Control-Allow-Headers", "Content-Type, Authorization, X-Requested-With")
+    myHeaders.append("Access-Control-Allow-Origin", "*")
+    myHeaders.append("Access-Control-Allow-Methods", "DELETE, POST, GET, OPTIONS")
+    myHeaders.append("Access-Control-Allow-Headers", "Content-Type, Authorization, X-Requested-With")
     var raw = JSON.stringify({
       "input_data": {
         "columns": [
