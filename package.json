@@ -17,7 +17,7 @@
     "typescript": "^4.6.3",
     "web-vitals": "^1.1.2"
   },
-  "proxy": "https://man-diabetes-mma-managed-001.westeurope.inference.ml.azure.com",
+  "proxy": "http://localhost:7071/api",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
