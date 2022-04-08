@@ -63,7 +63,7 @@ export const App: React.FunctionComponent = () => {
       
     };
 
-    fetch("/score", requestOptions)
+    fetch("/api/score", requestOptions)
      .then(response => response.text())
       .then(result => {
         console.log(result);
